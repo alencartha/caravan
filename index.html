@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Caravan</title>
+  </head>
+  <body>
+    <nav
+      class="
+        navbar navbar-expand-lg navbar-light
+        bg-light
+        fixed-top
+        py-3
+        box-shadow
+      "
+    >
+      <a class="navbar-brand ms-5" href="#">
+        <img src="img/caravan.svg" alt="logo caravan" />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-end"
+        id="navbarSupportedContent"
+      >
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item dropdown">
+            <a
+              class="nav-link dropdown-toggle"
+              href="#"
+              id="navbarDarkDropdownMenuLink"
+              role="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Locais
+            </a>
+            <ul
+              class="dropdown-menu"
+              aria-labelledby="navbarDarkDropdownMenuLink"
+            >
+              <li><a class="dropdown-item" href="#">California</a></li>
+              <li><a class="dropdown-item" href="#">Paris</a></li>
+              <li><a class="dropdown-item" href="#">Dublin</a></li>
+            </ul>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="planos.html">Planos</a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="contato.html">Contato</a>
+          </li>
+          <li class="nav-item ms-1">
+            <a class="nav-link" href="#">Login</a>
+          </li>
+          <li class="nav-item ms-md-2 me-md-5">
+            <a class="btn btn-outline-primary" href="inscricao.html"
+              >Inscreva-se</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <section class="container-fluid">
+      <div class="row bg-dark">
+        <div class="col-lg-7 p-0">
+          <div
+            id="carouselExampleIndicators"
+            class="carousel slide"
+            data-bs-ride="carousel"
+          >
+            <div class="carousel-indicators">
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="0"
+                class="active"
+                aria-current="true"
+                aria-label="Slide 1"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="1"
+                aria-label="Slide 2"
+              ></button>
+              <button
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide-to="2"
+                aria-label="Slide 3"
+              ></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/img/dublin.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-block">
+                  <h5 class="display-4">Dublin</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./img/california.jpg"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-block">
+                  <h5 class="display-4">California</h5>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/paris.jpg" class="d-block w-100" alt="..." />
+                <div class="carousel-caption d-block">
+                  <h5 class="display-4">Paris</h5>
+                </div>
+              </div>
+            </div>
+            <button
+              class="carousel-control-prev"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="prev"
+            >
+              <span
+                class="carousel-control-prev-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button
+              class="carousel-control-next"
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide="next"
+            >
+              <span
+                class="carousel-control-next-icon"
+                aria-hidden="true"
+              ></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+        <div class="col-lg-5 p-5 align-self-center">
+          <h1 class="text-white display-4">Realize a viagem do seu sonho</h1>
+          <p class="lead text-white">
+            O melhor local para viajar é com a Caravan, mais de 5.000 excursões
+            concluídas.
+          </p>
+          <form class="row g-3">
+            <div class="input-group input-group-lg">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Digite seu email"
+                aria-label="Recipient's username"
+                aria-describedby="basic-addon2"
+              />
+              <button class="btn btn-primary" type="button">Inscreva-se</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light text-center">
+      <div class="container">
+        <div class="my-5">
+          <span class="h6 d-block">TUDO DE MELHOR PARA VOCÊ</span>
+          <h2 class="display-4 text-primary">Aproveite as Vantagens</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center icon">
+              <img src="./img/icones/passaporte.svg" alt="icon-passaport" />
+            </div>
+            <h3>Documentos</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              id culpa veniam, voluptate error beatae alias illo excepturi
+              dignissimos accusamus sunt sapiente? Aliquam eaque omnis quos
+              incidunt hic et optio.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center icon">
+              <img src="./img/icones/passagens.svg" alt="icon-passagens" />
+            </div>
+            <h3>Passagens</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              id culpa veniam, voluptate error beatae alias illo excepturi
+              dignissimos accusamus sunt sapiente? Aliquam eaque omnis quos
+              incidunt hic et optio.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center icon">
+              <img src="./img/icones/translado.svg" alt="icon-translado" />
+            </div>
+            <h3>Translado</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              id culpa veniam, voluptate error beatae alias illo excepturi
+              dignissimos accusamus sunt sapiente? Aliquam eaque omnis quos
+              incidunt hic et optio.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center icon">
+              <img src="./img/icones/praias.svg" alt="icon-turismo" />
+            </div>
+            <h3>Praias</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              id culpa veniam, voluptate error beatae alias illo excepturi
+              dignissimos accusamus sunt sapiente? Aliquam eaque omnis quos
+              incidunt hic et optio.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center icon">
+              <img src="./img/icones/bagagens.svg" alt="icon-bagagem" />
+            </div>
+            <h3>Bagagens</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              id culpa veniam, voluptate error beatae alias illo excepturi
+              dignissimos accusamus sunt sapiente? Aliquam eaque omnis quos
+              incidunt hic et optio.
+            </p>
+          </div>
+
+          <div class="col-md-6 col-lg-4">
+            <div class="d-flex justify-content-center icon">
+              <img src="./img/icones/turismo.svg" alt="icon-turismo" />
+            </div>
+            <h3>Turismo</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi
+              id culpa veniam, voluptate error beatae alias illo excepturi
+              dignissimos accusamus sunt sapiente? Aliquam eaque omnis quos
+              incidunt hic et optio.
+            </p>
+          </div>
+        </div>
+        <a href="#" class="display-4 btn btn-primary mt-4 btn-lg"
+          >Comprar Plano</a
+        >
+      </div>
+    </section>
+
+    <section id="home-quote" class="text-center p-5">
+      <blockquote class="blockquote p-md-5 p-3">
+        <p class="display-4 text-white">
+          <em
+            >"A felicidade não está na estrada que leva a algum lugar. A
+            felicidade é a própria estrada."</em
+          >
+        </p>
+        <footer class="blockquote-footer text-white lead">Bob Dylan</footer>
+      </blockquote>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container text-center">
+        <div class="my-5">
+          <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
+          <h2 class="display-4 text-primary">Perguntas Frequentes</h2>
+        </div>
+      </div>
+
+      <div class="row justify-content-center ms-5">
+
+        <div class="col-6 ms-md-5">
+        <p class="lead collapsed">
+          <a data-bs-toggle="collapse" href="#pergunta1" role="button" aria-expanded="false" aria-controls="pergunta1">
+            → É possível cancelar a viagem?
+          </a>
+        </p>
+        <div class="collapse pb-3 border-perguntas" id="pergunta1">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+        </div>
+
+        <p class="lead collapsed">
+          <a data-bs-toggle="collapse" href="#pergunta2" role="button" aria-expanded="false" aria-controls="pergunta2">
+            → Qual a garantia que tenho se perder o voo?
+          </a>
+        </p>
+        <div class="collapse pb-3 border-perguntas" id="pergunta2">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+        </div>
+
+        <p class="lead collapsed">
+          <a data-bs-toggle="collapse" href="#pergunta3" role="button" aria-expanded="false" aria-controls="pergunta3">
+            → Qual a principal forma de viagem?
+          </a>
+        </p>
+        <div class="collapse pb-3 border-perguntas" id="pergunta3">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+        </div>
+
+        <p class="lead collapsed">
+          <a data-bs-toggle="collapse" href="#pergunta4" role="button" aria-expanded="false" aria-controls="pergunta4">
+            → Vocês dão descontos para grupos grandes?
+          </a>
+        </p>
+        <div class="collapse pb-3 border-perguntas" id="pergunta4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+        </div>
+
+        <p class="lead collapsed">
+          <a data-bs-toggle="collapse" href="#pergunta5" role="button" aria-expanded="false" aria-controls="pergunta5">
+            → Vocês dão descontos para grupos grandes?
+          </a>
+        </p>
+        <div class="collapse pb-3 border-perguntas" id="pergunta5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium lorem non vestibulum scelerisque. Proin a vestibulum sem, eget tristique massa. Aliquam lacinia rhoncus nibh quis ornare.
+        </div>
+
+      </div>
+
+      <div class="container text-center">
+        <div class="my-5">
+          <span class="h6 d-block">FALE CONOSCO PARA MAIS DÚVIDAS</span>
+          <a href="#" class="display-4 btn btn-primary mt-4 btn-lg">Entre em Contato</a>
+        </div>
+      </div>
+    </section>
+
+    <script type="text/javascript" src="./js/popper.min.js"></script>
+    <script type="text/javascript" src="./js/bootstrap.js"></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

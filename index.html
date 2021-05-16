@@ -9,6 +9,43 @@
     <title>Caravan</title>
   </head>
   <body>
+
+    <!-- MODAL -->
+
+    <div class="modal fade" id="modalLogin" tabindex="-1" aria-labelledby="modalLogin" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="modalLoginTitulo">Entre na sua conta</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+
+          <div class="modal-body">
+
+            <form>
+              <div class="form-group">
+                <label for="inputEmail" class="form-label h5">Email:</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+              </div>
+              <div class="mb-3">
+                <label for="loginSenha" class="form-label h5">Senha:</label>
+                <input type="password" class="form-control" id="loginSenha">
+              </div>
+              <button type="submit" class="btn btn-primary btn-md">Entrar na conta</button>
+              <div>
+              <small id="emailHelp" class="form-text text-muted">Esqueceu a senha? <a href="#">Clique aqui</a></small>
+            </div>
+            </form>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- FECHA MODAL-->
+
+
     <nav
       class="
         navbar navbar-expand-lg navbar-light
@@ -41,7 +78,7 @@
           <li class="nav-item dropdown">
             <a
               class="nav-link dropdown-toggle"
-              href="#"
+              href=""
               id="navbarDarkDropdownMenuLink"
               role="button"
               data-bs-toggle="dropdown"
@@ -53,19 +90,20 @@
               class="dropdown-menu"
               aria-labelledby="navbarDarkDropdownMenuLink"
             >
+            <li><a class="dropdown-item" href="pages/local.html">Dublin</a></li>
               <li><a class="dropdown-item" href="#">California</a></li>
               <li><a class="dropdown-item" href="#">Paris</a></li>
-              <li><a class="dropdown-item" href="#">Dublin</a></li>
+              
             </ul>
           </li>
           <li class="nav-item ms-1">
-            <a class="nav-link" href="planos.html">Planos</a>
+            <a class="nav-link" href="pages/local.html">Planos</a>
           </li>
           <li class="nav-item ms-1">
             <a class="nav-link" href="contato.html">Contato</a>
           </li>
           <li class="nav-item ms-1">
-            <a class="nav-link" href="#">Login</a>
+            <a class="nav-link" type="button" data-bs-toggle="modal" data-bs-target="#modalLogin">Login</a>
           </li>
           <li class="nav-item ms-md-2 me-md-5">
             <a class="btn btn-outline-primary" href="inscricao.html"
@@ -346,7 +384,7 @@
       </div>
     </section>
 
-    <footer class="bg-dark text-white pt-4">
+    <footer class="bg-dark text-white pt-4 mt-5">
      <div class="container">
       <div class="row">
         <div class="col-md-3 col-6">
